@@ -37,8 +37,6 @@ set(MSG_FILES
     "msg/BoundingBox2Di.msg"
     "msg/BoundingBox2Df.msg"
     "msg/BoundingBox3D.msg"
-    "msg/Skeleton2D.msg"
-    "msg/Skeleton3D.msg"
     "msg/DepthInfoStamped.msg"
     "msg/PlaneStamped.msg"
     "msg/PosTrackStatus.msg"
@@ -53,3 +51,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 )
 
 ament_package()
+
+
+#"msg/Skeleton2D.msg"
+#"msg/Skeleton3D.msg"
