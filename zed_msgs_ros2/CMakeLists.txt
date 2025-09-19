@@ -37,12 +37,8 @@ set(MSG_FILES
     "msg/BoundingBox2Di.msg"
     "msg/BoundingBox2Df.msg"
     "msg/BoundingBox3D.msg"
-    "msg/DepthInfoStamped.msg"
-    "msg/PlaneStamped.msg"
-    "msg/PosTrackStatus.msg"
-    "msg/GnssFusionStatus.msg"
-    "msg/Heartbeat.msg"
-    "msg/MagHeadingStatus.msg"
+    "msg/Skeleton2D.msg"
+    "msg/Skeleton3D.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -52,6 +48,3 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
 ament_package()
 
-
-#"msg/Skeleton2D.msg"
-#"msg/Skeleton3D.msg"

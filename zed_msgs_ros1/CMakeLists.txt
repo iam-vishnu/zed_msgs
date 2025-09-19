@@ -30,8 +30,8 @@ add_message_files(
     Keypoint3D.msg
     Object.msg
     ObjectsStamped.msg
-    #Skeleton2D.msg
-    #Skeleton3D.msg
+    Skeleton2D.msg
+    Skeleton3D.msg
     RGBDSensors.msg
     PlaneStamped.msg
     PosTrackStatus.msg
