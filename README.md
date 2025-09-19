@@ -1,7 +1,3 @@
-Here’s a cleaner, rephrased version of your notes in markdown:
-
----
-
 # Notes
 
 * To make **ROS1\_Bridge** work, I created a new repository for both **ROS1** and **ROS2** ZED interfaces, following the practices from [ros-humble-ros1-bridge-builder](https://github.com/TommyChangUMD/ros-humble-ros1-bridge-builder).
